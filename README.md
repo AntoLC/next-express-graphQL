@@ -1,4 +1,5 @@
-# Next - Express - GraphQL - Project all configured - You just have to start coding now
+# Next - Express - GraphQL - Project all configured
+## You just have to start coding
 
 Clean Install with:
 * Next, React, Jest - one container
