@@ -1,9 +1,8 @@
-# Project Start Next - React - Express - QraphQL - MongoBD - Docker - Sentry - Jest
+# Next - Express - GraphQL - Project all configured - You just have to start coding now
 
-Clean Install:
-* With Next With React - one container
-* Express with Mongoose and GraphQL and Sentry - one container
-* Jest on both
+Clean Install with:
+* Next, React, Jest - one container
+* Express, Mongoose, GraphQL, Sentry, Jasmine, Jest - one container
 * MongoDB - one container
 * mongo-express - one container
 * All Dockerised
@@ -34,7 +33,7 @@ Docker
 docker-compose up --build
 ```
 
-## Enjoy
+# Enjoy ;)
 
 ## Authors
 
