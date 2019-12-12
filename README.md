@@ -1,4 +1,4 @@
-# Project Title
+# Project Start Next - React - Express - QraphQL - MongoBD - Docker - Sentry - Jest
 
 Clean Install:
 * With Next With React - one container
@@ -34,9 +34,7 @@ Docker
 docker-compose up --build
 ```
 
-## Running the tests
-
-Enjoy
+## Enjoy
 
 ## Authors
 
