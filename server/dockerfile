@@ -1,0 +1,20 @@
+FROM node:12.13.1-alpine3.10
+
+ENV PATH_APP /home/app/
+ENV NAME_APP your_server
+ENV FULL_PATH ${PATH_APP}${NAME_APP}
+ENV ENTRY_POINT_SERVER ${FULL_PATH}/src/index.ts
+WORKDIR ${FULL_PATH}/
+
+COPY . .
+
+RUN apk add --update bash
+RUN apk add --update nano
+#RUN npm install
+
+WORKDIR ${PATH_APP}/
+RUN if [ ! -e ${ENTRY_POINT_SERVER} ]; then npx express-generator-typescript ${NAME_APP} ; fi
+WORKDIR ${FULL_PATH}/
+
+# EXPOSE 3000
+# CMD [ "npm", "start"]
