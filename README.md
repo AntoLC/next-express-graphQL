@@ -26,8 +26,11 @@ Just be careful that the folder inside next has the same name as the application
 
 ### Path Access
 Next.js: http://localhost:2502/
+
 Express: http://localhost:2501/
+
 MongoDB: http://localhost:2499/
+
 GraphQL: http://localhost:2501/graphQL
 
 ### Prerequisites
