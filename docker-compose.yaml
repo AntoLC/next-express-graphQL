@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  componentui-next:
+  next:
     container_name: ${CONTAINER_NEXT_NAME}
     build: ./${BUILD_PATH_NEXT_NAME}
     volumes: 
@@ -15,7 +15,7 @@ services:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
 
-  componentui-backend:
+  server:
     container_name: ${CONTAINER_BACKEND_NAME}
     build: ./${PATH_BACKEND_NAME}
     volumes: 
